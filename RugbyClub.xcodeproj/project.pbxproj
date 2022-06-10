@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		A3F398E427A8887500319159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398E327A8887500319159 /* AppDelegate.swift */; };
 		A3F398E627A8887500319159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398E527A8887500319159 /* SceneDelegate.swift */; };
-		A3F398E827A8887500319159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398E727A8887500319159 /* ViewController.swift */; };
 		A3F398EB27A8887600319159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F398E927A8887600319159 /* Main.storyboard */; };
 		A3F398ED27A8887700319159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F398EC27A8887700319159 /* Assets.xcassets */; };
 		A3F398F027A8887700319159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F398EE27A8887700319159 /* LaunchScreen.storyboard */; };
+		A3F398FB27A88A4500319159 /* ClubsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398FA27A88A4500319159 /* ClubsController.swift */; };
+		A3F398FD27A88A5D00319159 /* StadesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398FC27A88A5D00319159 /* StadesController.swift */; };
+		A3F398FF27A890C200319159 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398FE27A890C200319159 /* Club.swift */; };
+		A3F3990127A890D000319159 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3990027A890D000319159 /* Datas.swift */; };
+		A3F3990327A8922F00319159 /* StadeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3990227A8922F00319159 /* StadeAnnotation.swift */; };
+		A3F3990527A8962C00319159 /* StadiumAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3990427A8962B00319159 /* StadiumAnnotationView.swift */; };
+		A3F3990727A8B1F800319159 /* CustomClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3990627A8B1F800319159 /* CustomClubCell.swift */; };
+		A3F3990927A8CEDD00319159 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3990827A8CEDD00319159 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3F398E027A8887500319159 /* RugbyClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RugbyClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F398E327A8887500319159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3F398E527A8887500319159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3F398E727A8887500319159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3F398EA27A8887600319159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3F398EC27A8887700319159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3F398EF27A8887700319159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3F398F127A8887700319159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F398FA27A88A4500319159 /* ClubsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsController.swift; sourceTree = "<group>"; };
+		A3F398FC27A88A5D00319159 /* StadesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadesController.swift; sourceTree = "<group>"; };
+		A3F398FE27A890C200319159 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		A3F3990027A890D000319159 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		A3F3990227A8922F00319159 /* StadeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadeAnnotation.swift; sourceTree = "<group>"; };
+		A3F3990427A8962B00319159 /* StadiumAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumAnnotationView.swift; sourceTree = "<group>"; };
+		A3F3990627A8B1F800319159 /* CustomClubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClubCell.swift; sourceTree = "<group>"; };
+		A3F3990827A8CEDD00319159 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		A3F398E227A8887500319159 /* RugbyClub */ = {
 			isa = PBXGroup;
 			children = (
+				A3F398F927A888A600319159 /* Model */,
+				A3F398F827A8889D00319159 /* View */,
+				A3F398F727A8889500319159 /* Controller */,
 				A3F398E327A8887500319159 /* AppDelegate.swift */,
 				A3F398E527A8887500319159 /* SceneDelegate.swift */,
-				A3F398E727A8887500319159 /* ViewController.swift */,
 				A3F398E927A8887600319159 /* Main.storyboard */,
 				A3F398EC27A8887700319159 /* Assets.xcassets */,
 				A3F398EE27A8887700319159 /* LaunchScreen.storyboard */,
 				A3F398F127A8887700319159 /* Info.plist */,
 			);
 			path = RugbyClub;
+			sourceTree = "<group>";
+		};
+		A3F398F727A8889500319159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3F398FA27A88A4500319159 /* ClubsController.swift */,
+				A3F398FC27A88A5D00319159 /* StadesController.swift */,
+				A3F3990827A8CEDD00319159 /* DetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3F398F827A8889D00319159 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3F3990427A8962B00319159 /* StadiumAnnotationView.swift */,
+				A3F3990627A8B1F800319159 /* CustomClubCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3F398F927A888A600319159 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3F398FE27A890C200319159 /* Club.swift */,
+				A3F3990027A890D000319159 /* Datas.swift */,
+				A3F3990227A8922F00319159 /* StadeAnnotation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F398E827A8887500319159 /* ViewController.swift in Sources */,
 				A3F398E427A8887500319159 /* AppDelegate.swift in Sources */,
+				A3F3990327A8922F00319159 /* StadeAnnotation.swift in Sources */,
+				A3F3990127A890D000319159 /* Datas.swift in Sources */,
+				A3F3990527A8962C00319159 /* StadiumAnnotationView.swift in Sources */,
+				A3F3990727A8B1F800319159 /* CustomClubCell.swift in Sources */,
+				A3F398FD27A88A5D00319159 /* StadesController.swift in Sources */,
+				A3F398FF27A890C200319159 /* Club.swift in Sources */,
 				A3F398E627A8887500319159 /* SceneDelegate.swift in Sources */,
+				A3F3990927A8CEDD00319159 /* DetailController.swift in Sources */,
+				A3F398FB27A88A4500319159 /* ClubsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
